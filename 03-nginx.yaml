@@ -1,0 +1,7 @@
+- nmae: nginx install and run
+  hosts: web
+  tasks:
+  - name: install nginx
+    ansible.builtin.debug:
+      name: nginx
+      state: present
