@@ -1,4 +1,4 @@
-- nmae: nginx install and run
+- name: nginx install and run
   hosts: web
   tasks:
   - name: install nginx
