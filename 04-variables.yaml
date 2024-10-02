@@ -2,8 +2,9 @@
   hosts: web
   vars:
     COURSE: "Devops with AWS"
-    DURATION: "120Hrs"
+    DURATION: "120HRS"
     TRAINER: "sivakumar Reddy"
+  
   tasks:
   - name: print the information
     ansible.builtin.debug:
