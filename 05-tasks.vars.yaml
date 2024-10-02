@@ -8,16 +8,16 @@
   tasks:
   - name: print the information
     ansible.builtin.debug:
-      msg: "Hi,I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is {{sivakumar Reddy}}" 
+      msg: "Hi,I am learning {COURSE}, Duration is: {DURATION}, Trainer is {sivakumar Reddy}" 
 
   - name: print the information again
     vars: # task level variables
       COURSE: "Ansible"
     ansible.builtin.debug:
-      msg: "Hi,I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is {{sivakumar Reddy}}"
+      msg: "Hi,I am learning {COURSE}, Duration is: {DURATION}, Trainer is {sivakumar Reddy}"
 
 
   - name: print the information
     ansible.builtin.debug:
-      msg: "Hi,I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is {{sivakumar Reddy}}" 
+      msg: "Hi,I am learning {COURSE}, Duration is: {DURATION}, Trainer is {sivakumar Reddy}" 
 
