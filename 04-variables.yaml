@@ -3,7 +3,7 @@
   vars:
     COURSE: "Devops with AWS"
     DURATION: "120HRS"
-    TRAINER: "sivakumar Reddy"
+    TRAINER: "sivakumar Reddy M"
   
   tasks:
   - name: print the information
