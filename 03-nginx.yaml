@@ -3,6 +3,7 @@
   become: yes #take sudo access
   tasks:
   - name: install nginx
-    ansible.builtin.debug:
+    ansible.builtin.package:
       name: nginx
       state: present
+
