@@ -1,6 +1,6 @@
 - name: variables to print
   hosts: web
-    vars:
+  vars:
     COURSE: "Devops with AWS from PLAY level"
     DURATION: "120HRS"
     TRAINER: "sivakumar Reddy M"
