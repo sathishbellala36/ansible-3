@@ -4,16 +4,9 @@
     COURSE: "Devops with AWS from PLAY level"
     DURATION: "120HRS"
     TRAINER: "sivakumar Reddy M"
-  
   vars_prompt:
   - name: COURSE
     prompt: please enter the course name
-    private: false # not confidential
-  - name: TRAINER
-    prompt: please enter the trainer name
-    private: false # not confidential
-  - name: DURATION
-    prompt: please enter the duration
     private: false # not confidential
   tasks:
   - name: print the information
@@ -22,4 +15,4 @@
     DURATION: "120HRS"
     TRAINER: "sivakumar Reddy M"
     ansible.builtin.debug:
-      msg: "Hi,I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer is {{sivakumar Reddy}}" 
+      msg: "Hi,I am learning {{COURSE}}
