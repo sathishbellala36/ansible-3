@@ -1,5 +1,5 @@
 
-- name: loopsdemo
+- name: loops demo
   hosts: web
   become: yes
   tasks:
@@ -11,4 +11,4 @@
   - mysql
   - nginx
   - postfix
-  - httpd
+  
