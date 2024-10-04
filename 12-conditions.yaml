@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars_prompt:
-  - name: number
+  - name: 'number'
     prompt: please enter the number
     private: false # not confidential
     tasks:
