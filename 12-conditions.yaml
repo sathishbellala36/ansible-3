@@ -5,7 +5,7 @@
   - name: number
     prompt: please enter the number
     private: false # not confidential
-   tasks:
+    tasks:
     - name: print this if less than 10
       ansible.builtin.debug:
         msg: "Given number {{ number }} is less than 10"
