@@ -19,11 +19,11 @@
       security_group: "{{ sg_id}}"
       image_id: "{{ ami_id }}"
     loop: "{{ instances }}"
-    register: ec2_instances
+    register: ec2-instances
 
   - name: print the output
     ansible.builtin.debug:
-      msg: "{{ ec2_instances }}"
+      msg: "{{ ec2-instances }}"
 
   - name: create r53 records
     amazon.aws.route53:
@@ -36,4 +36,4 @@
      wait: true
      overwrite: true
     
-    loop: "{{ ec2_instances.results }}"
+    loop: "{{ ec2-instances.results }}"
