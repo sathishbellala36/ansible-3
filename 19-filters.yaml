@@ -50,7 +50,7 @@
 
   - name: check my ip
     vars:
-      myip: "192.168.1.1"
+      myip: "355.168.1.1"
     ansible.builtin.debug:
       msg: "{{ myip | ansible.utils.ipv4 }}"
   
